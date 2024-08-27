@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  overflow-x: hidden;
+}
+
+/* Correct way to style the scrollbar */
+::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+
+.card::-webkit-scrollbar {
+  display: none;
+}
+
+/* Optional: Style for the scrollbar track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Optional: Style for the scrollbar handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 6px;
+}
+
+/* Optional: Style for the scrollbar handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
